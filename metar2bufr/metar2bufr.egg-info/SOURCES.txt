@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+metar2bufr.egg-info/PKG-INFO
+metar2bufr.egg-info/SOURCES.txt
+metar2bufr.egg-info/dependency_links.txt
+metar2bufr.egg-info/requires.txt
+metar2bufr.egg-info/top_level.txt

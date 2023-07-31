@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: metar2bufr
+Version: 0.0.1
+Summary: Package for converting METAR TAC messages or an individual METAR message to BUFR4
+Author: Alexander Thompson
+Author-email: Alexander Thompson <alexander.thompson@noaa.gov>
+License: "Creative Commons Universal License - https://creativecommons.org/publicdomain/zero/1.0/"
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: WMO,METAR,FM-15,BUFR,decoding,weather,observations
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Placeholder README file for metar2bufr plugin. Will expand after further development.

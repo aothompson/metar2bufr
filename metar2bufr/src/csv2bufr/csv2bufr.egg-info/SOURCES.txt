@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+csv2bufr/__init__.py
+csv2bufr/cli.py
+csv2bufr/pygeoapi_plugin.py
+csv2bufr.egg-info/PKG-INFO
+csv2bufr.egg-info/SOURCES.txt
+csv2bufr.egg-info/dependency_links.txt
+csv2bufr.egg-info/entry_points.txt
+csv2bufr.egg-info/requires.txt
+csv2bufr.egg-info/top_level.txt
+csv2bufr/resources/mappings/daycli.json
+csv2bufr/resources/mappings/mapping_schema.json
+csv2bufr/resources/mappings/synop_bufr.json

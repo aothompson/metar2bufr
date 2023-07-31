@@ -1,0 +1,1 @@
+Placeholder README file for metar2bufr plugin. Will expand after further development.

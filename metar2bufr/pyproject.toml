@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metar2bufr"
+version = "0.0.1"
+authors = [
+  { name="Alexander Thompson", email="alexander.thompson@noaa.gov" },
+]
+description = "Package for converting METAR TAC messages or an individual METAR message to BUFR4"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 1 - Planning"
+]
+keywords = [
+    'WMO',
+    'METAR', 'FM-15',
+    'BUFR',
+    'decoding',
+    'weather',
+    'observations'
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

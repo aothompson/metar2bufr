@@ -1,0 +1,48 @@
+{
+    "inputShortDelayedDescriptorReplicationFactor": [],
+    "inputDelayedDescriptorReplicationFactor": [],
+    "inputExtendedDelayedDescriptorReplicationFactor": [],
+    "number_header_rows": 1,
+    "names_on_row": 1,
+    "icao_station_identifier": "data:Station_ID",
+    "header":[
+        {"eccodes_key": "edition", "value": "const:4"},
+        {"eccodes_key": "masterTableNumber", "value": "const:0"},
+        {"eccodes_key": "bufrHeaderCentre", "value": "const:0"},
+        {"eccodes_key": "bufrHeaderSubCentre", "value": "const:0"},
+        {"eccodes_key": "updateSequenceNumber", "value": "const:0"},
+        {"eccodes_key": "dataCategory", "value": "const:0"},
+        {"eccodes_key": "internationalDataSubCategory", "value": "const:2"},
+        {"eccodes_key": "masterTablesVersionNumber", "value": "const:30"},
+        {"eccodes_key": "numberOfSubsets", "value": "const:1"},
+        {"eccodes_key": "observedData", "value": "const:1"},
+        {"eccodes_key": "compressedData", "value": "const:0"},
+        {"eccodes_key": "typicalYear", "value": "data:year"},
+        {"eccodes_key": "typicalMonth", "value": "data:month"},
+        {"eccodes_key": "typicalDay", "value": "data:day"},
+        {"eccodes_key": "typicalHour", "value": "data:hour"},
+        {"eccodes_key": "typicalMinute", "value": "data:minute"},
+        {"eccodes_key": "unexpandedDescriptors", "value":"array:307021"}
+    ],
+    "data": [
+        {"eccodes_key": "#1#icaoLocationIndicator", "value":"data:icao_location_identifier"},
+        {"eccodes_key": "#1#stationType", "value":"data:station_type"},
+        {"eccodes_key": "#1#year", "value": "data:year"},
+        {"eccodes_key": "#1#month", "value": "data:month"},
+        {"eccodes_key": "#1#day", "value": "data:day"},
+        {"eccodes_key": "#1#hour", "value": "data:hour"},
+        {"eccodes_key": "#1#minute", "value": "data:minute"},
+        {"eccodes_key": "#1#latitude", "value": "data:_latitude"},
+        {"eccodes_key": "#1#longitude", "value": "data:_longitude"},
+        {"eccodes_key": "#1#heightOfStation", "value":"data:_station_height"},
+        {"eccodes_key": "#1#windDirection", "value": "data:wind_direction"},
+        {"eccodes_key": "#1#extremeCounterclockwiseWindDirectionOfAVariableWind", "value": "data:variable_extreme_ccw"},
+        {"eccodes_key": "#1#extremeClockwiseWindDirectionOfAVariableWind", "value": "data:variable_extreme_cw"},
+        {"eccodes_key": "#1#windSpeed", "value": "data:wind_speed"},
+        {"eccodes_key": "#1#maximumWindGustSpeed", "value": "data:gust_speed"},
+        {"eccodes_key": "#1#airTemperature", "value": "data:air_temp"},
+        {"eccodes_key": "#1#dewpointTemperature", "value": "data:dew_point_temp"},
+        {"eccodes_key": "#1#altimeterSettingQnh", "value": "data:altimeter"}
+
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "inputDelayedDescriptorReplicationFactor": [],
+    "inputShortDelayedDescriptorReplicationFactor": [],
+    "inputExtendedDelayedDescriptorReplicationFactor": [],
+    "wigos_station_identifier": "data:wsi",
+    "number_header_rows": 1,
+    "column_names_row": 1,
+    "header": [
+        {
+            "eccodes_key": "edition",
+            "value": ""
+        },
+        {
+            "eccodes_key": "masterTableNumber",
+            "value": ""
+        },
+        {
+            "eccodes_key": "bufrHeaderCentre",
+            "value": ""
+        },
+        {
+            "eccodes_key": "bufrHeaderSubCentre",
+            "value": ""
+        },
+        {
+            "eccodes_key": "updateSequenceNumber",
+            "value": ""
+        },
+        {
+            "eccodes_key": "dataCategory",
+            "value": ""
+        },
+        {
+            "eccodes_key": "internationalDataSubCategory",
+            "value": ""
+        },
+        {
+            "eccodes_key": "dataSubCategory",
+            "value": ""
+        },
+        {
+            "eccodes_key": "masterTablesVersionNumber",
+            "value": ""
+        },
+        {
+            "eccodes_key": "localTablesVersionNumber",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalYear",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalMonth",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalDay",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalHour",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalMinute",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalSecond",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalDate",
+            "value": ""
+        },
+        {
+            "eccodes_key": "typicalTime",
+            "value": ""
+        },
+        {
+            "eccodes_key": "numberOfSubsets",
+            "value": ""
+        },
+        {
+            "eccodes_key": "observedData",
+            "value": ""
+        },
+        {
+            "eccodes_key": "compressedData",
+            "value": ""
+        },
+        {
+            "eccodes_key": "unexpandedDescriptors",
+            "value": "array:301150,301011,301012,301021,7031,302001"
+        },
+        {
+            "eccodes_key": "subsetNumber",
+            "value": ""
+        }
+    ],
+    "data": [
+        {
+            "eccodes_key": "#1#wigosIdentifierSeries",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:14",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#wigosIssuerOfIdentifier",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:65534",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#wigosIssueNumber",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:65534",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#wigosLocalIdentifierCharacter",
+            "value": ""
+        },
+        {
+            "eccodes_key": "#1#year",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:4094",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#month",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:14",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#day",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:62",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#hour",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:30",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#minute",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:62",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#latitude",
+            "value": "",
+            "valid_min": "const:-90.0",
+            "valid_max": "const:245.5443",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#longitude",
+            "value": "",
+            "valid_min": "const:-180.0",
+            "valid_max": "const:491.08862",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#heightOfBarometerAboveMeanSeaLevel",
+            "value": "",
+            "valid_min": "const:-400.0",
+            "valid_max": "const:12707.0",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#nonCoordinatePressure",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:163820",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#pressureReducedToMeanSeaLevel",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:163820",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#3HourPressureChange",
+            "value": "",
+            "valid_min": "const:-5000",
+            "valid_max": "const:5220",
+            "scale": "const:0",
+            "offset": "const:0"
+        },
+        {
+            "eccodes_key": "#1#characteristicOfPressureTendency",
+            "value": "",
+            "valid_min": "const:0",
+            "valid_max": "const:14",
+            "scale": "const:0",
+            "offset": "const:0"
+        }
+    ]
+}
